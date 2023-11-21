@@ -1,0 +1,12 @@
+---
+product_id: commerciales_eebb
+alias: "comerciales eebb" 
+description: relación de comerciales con eebb 
+type: dataset 
+subtype: master 
+business: products/commerciales_eebb/business.yml 
+outputs: 
+  - products/commerciales_eebb/contract.yml 
+inputs: 
+  - products/commerciales_eebb/contract-aux.1.yml    
+pipeline: products/commerciales_eebb/pipeline.yml 
